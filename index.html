@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analog Clock | JavaScript</title>
+    <link rel="stylesheet" href="https://cdn.jsdeliver.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="container">
+        <div class="clock_container grid">
+            <div class="clock_content grid">
+                <div class="clock_circle">
+                    <span class="clock_twelve">12</span>
+                    <span class="clock_three">3</span>
+                    <span class="clock_six">6</span>
+                    <span class="clock_nine">9</span>
+
+                    <div class="clock_rounder"></div>
+                    <div class="clock_hour" id="clock-hour"></div>
+                    <div class="clock_minutes" id="clock-minutes"></div>
+                    <div class="clock_seconds" id="clock-seconds"></div>
+                    <div class="clock_theme">
+                        <i class="bx bxs-moon" id="theme-button"></i>
+                    </div>
+                </div>
+                <div>
+                    <div class="clock_text">
+                        <div class="clock_text-hour" id="text-hour"></div>
+                        <div class="clock_text-colon" id="text-colon">:</div>
+                        <div class="clock_text-minutes" id="text-minutes"></div>
+                        <div class="clock_text-ampm" id="text-ampm"></div>
+                    </div>
+                    <div class="clock_date">
+                        <span id="date-day"></span>
+                        <span id="date-month"></span>
+                        <span id="date-year"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
